@@ -1,0 +1,23 @@
+#main {
+    border-style: solid;
+    Border-color: red;
+    border-width: 2px;
+}
+
+.red{
+    color: red;
+}
+
+@media (min-width: 600px) {
+    #container{
+        display: flex;
+    }
+
+    #main {
+        width: 70%;
+    }
+
+    #sidebar {
+        width: 30%;
+    }
+}
