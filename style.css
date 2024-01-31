@@ -1,11 +1,17 @@
+body {
+    background-color: #b2dfdb; /* Pastel green color code */
+}
 #main {
     border-style: solid;
-    Border-color: red;
+    Border-color: rgb(255, 183, 0);
     border-width: 2px;
 }
-
+img {
+    width: 100%;
+    max-width: 500px;
+}
 .red{
-    color: red;
+    color: rgb(255, 136, 0);
 }
 
 @media (min-width: 600px) {
@@ -20,4 +26,16 @@
     #sidebar {
         width: 30%;
     }
+}
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
 }
